@@ -55,3 +55,36 @@ ScrollReveal().reveal(
   }
 );
 
+
+function empty() {
+  var x;
+  x = document.getElementById("name").value;
+  if (x == "") {
+      alert("Please enter a Name");
+      return false;
+  };
+  var a;
+  a = document.getElementById("phone").value;
+  if (a == "") {
+      alert("Please enter a Phone number to be contacted");
+      return false;
+  }
+   var z;
+  z = document.getElementById("message").value;
+  if (z == "") {
+      alert("Please type a message");
+      return false;
+  };
+
+  if (x !== "") {
+      alert("Your details have been submitted. We will contact you shortly")
+      return false;
+  }
+}
+
+const navLinks = document.getElementById("navbarSupportedContent");
+
+navLinks.addEventListener("click", (e) => {
+  navLinks.classList.remove("show");
+});
+
