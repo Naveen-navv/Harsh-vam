@@ -1715,9 +1715,9 @@ nav {
     }
 }
 
-@media only screen and (max-width:387px) {
+@media only screen and (max-width:347px) {
 
   .pswp{
-    margin-right: 10px;
+    margin-right: 1px;
   }
   }
