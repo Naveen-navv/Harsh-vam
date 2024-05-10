@@ -1123,6 +1123,11 @@ nav {
     right: clamp(5px, 3vw, 50px);
 }
 
+.gd a{
+text-decoration:none;
+}
+
+    
 @media only screen and (max-width: 1068px) {
     .homecon {
         top: 215px !important;
